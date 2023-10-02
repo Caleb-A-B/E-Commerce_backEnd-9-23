@@ -6,11 +6,7 @@ const { Category, Product } = require('../../models');
 router.get('/', async (req, res) => {
   // find all categories
   await Category.findAll({
-    attributes: ["id", "category_name"],
-    include: [{
-      model: Product,
-      attributes: ["id", "product_name", "price", "stock", "category_id"]
-    }]
+    include: [Product]
   })
   .then((categories) => {
     res.json(categories);
@@ -76,4 +72,4 @@ router.delete('/:id', async (req, res) => {
 	});
 });
 
-module.exports = route
+module.exports = router
