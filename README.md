@@ -23,6 +23,7 @@ All that's missing to make this a complete E-Commerce website is a simple front-
   - [Installation](#installation)
   - [Usage](#usage)
   - [Contributing](#contributing)
+  - [example](#example)
   - [Built With](#built-with)
   - [License](#license)
 ---
@@ -70,6 +71,16 @@ The server is running, now you can make requests to it through your desired meth
 * [**Visual Studio Code**](https://code.visualstudio.com/)
 
 ---
+
+## Contributing
+
+-Caleb Baca
+
+##example
+
+click [here](<video src="gitproducts%20-%20My%20Workspace%202023-10-02%2019-14-43.mp4" controls title="Title"></video>) for the vs code showcase
+
+click [here](<video src="git%20categories%20-%20My%20Workspace%202023-10-02%2018-53-05.mp4" controls title="Title"></video>) for the api test options
 
 ## License
 
